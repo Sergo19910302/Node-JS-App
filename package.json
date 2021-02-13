@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-basics",
+  "version": "0.0.1",
+  "description": "this is node js basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Sergey Feigin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "promise": "^8.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
